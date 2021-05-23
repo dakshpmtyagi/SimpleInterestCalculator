@@ -65,12 +65,13 @@
 }
 
 #myInterestOutput {
-	width: 39.2%;
+	width: 51%;
 	padding: 10px;
 	text-align: right;
 	border-radius: 4px;
 	background-color: #fff;
 	border: 1px solid #fff;
+	margin-left: 17px;
 	box-shadow: inset 0 0 3px #fff, 0 0 3px #fff;
 	font-weight: bold;
 }
@@ -81,9 +82,21 @@
 	box-shadow: 0 0 5px #007bff;
 }
 
+.mySimpleInterestOutputButton2 {
+	border: 1px solid #bbb;
+	border-radius: 4px;
+	box-shadow: 0 0 5px #ff0000;
+	margin-left: 10px;
+}
+
 .mySimpleInterestOutputButton:focus {
 	outline: none;
 	box-shadow: 0 0 10px #007bff;
+}
+
+.mySimpleInterestOutputButton2:focus {
+	outline: none;
+	box-shadow: 0 0 10px #ff0000;
 }
 
 .myInterestCalculatorHR {
